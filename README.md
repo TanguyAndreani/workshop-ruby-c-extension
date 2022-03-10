@@ -7,7 +7,7 @@ langage C.
 ## Installer Ruby
 
 Pour utiliser Ruby, il suffit d'installer la dernière version avec le
-[https://rvm.io](Ruby Version Manager).
+[Ruby Version Manager](https://rvm.io).
 
 Cette installation vous donnera accès au REPL ruby `irb`, à l'interpréteur
 `ruby` et au package manager `gem`.
