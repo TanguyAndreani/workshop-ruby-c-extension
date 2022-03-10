@@ -45,7 +45,7 @@ HelloC.world
 Plusieurs objectifs sont possibles. En voici quelques exemples:
 
 - Vous familiariser avec l'ecosystème Ruby, notamment les Rakefiles, les modules
-- En vous inspirant de [ce repo](https://github.com/kanwei/algorithms), créez une extension à partir de votre propre code C.
+- En vous inspirant de [ce repo](https://github.com/kanwei/algorithms), créez une extension à partir de votre propre code C. (ex: [Créer une classe instanciable avec des méthodes écrites en C](https://github.com/kanwei/algorithms/blob/5926f80c2fb2ff21318246ccbf6e78cc3b855103/ext/containers/bst/bst.c#L235))
 
 ## Conseils
 
