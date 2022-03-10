@@ -22,6 +22,8 @@ bundle exec rake
 # => ./lib/hello_c.so
 ```
 
+À partir de là, vous pouvez déjà charger l'extension avec `require './lib/hello_c'`.
+
 ## Avec le Gemfile
 
 ```shell
@@ -51,6 +53,11 @@ Plusieurs objectifs sont possibles. En voici quelques exemples:
 - N'hésitez pas à consulter directement le code source Ruby, dont un miroir est présent [ici](https://github.com/ruby/ruby).
 - Recherchez des exemples de code précis sur [Code Search](https://cs.github.com) ou dans des tutoriels.
 - Obtenez une copie PDF de Ruby Under a Microscope
+
+# Debugger avec strace en cas d'erreurs de chargement
+
+Si Ruby ne trouve pas vos fichiers, n'hesitez pas à utiliser strace afin de vérifier
+dans quels dossier les fichiers sont censés se trouver.
 
 ## Explorer le code source de Ruby
 
